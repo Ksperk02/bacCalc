@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BAC Calculator</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="bacCalc.js"></script>
+</head>
+<body>
+<h1>BAC Calculator</h1>
+<form id="bacCalculator">
+    <div class="amtDrink">
+        <h2>How Much Have You Had?</h2>
+        <label for="beerAmount">
+            <h3>Beer</h3>
+            <input type="number" id="beerAmount" value="0">
+        </label>
+        <label for="wineAmount">
+            <h3>Wine</h3>
+            <input type="number" id="wineAmount" value="0">
+        </label>
+        <label for="shotAmount">
+            <h3>Shots</h3>
+            <input type="number" id="shotAmount" value="0">
+        </label>
+        <label for="lbsAmount">
+            <h3>Body Weight in Pounds</h3>
+            <input type="number" id="lbsAmount" value="0">
+        </label>
+        <label for="hrAmount">
+            <h3>Hours You've Been Drinking</h3>
+            <input type="number" id="hrAmount" value="0">
+        </label>
+        <br>
+        <br>
+        <button id="button">How Drunk am I?</button>
+        <br>
+        <br>
+        <p id="output">Output</p>
+    </div>
+</form>
+</body>
+</html>
